@@ -20,7 +20,7 @@ NoteHub is a web application designed to facilitate the sharing of academic mate
 *   CSS (Tailwind CSS)
 *   JavaScript
 *   PHP
-*   MySQL (likely, based on `database/justclick.sql`)
+*   MySQL 
 *   Chart.js
 *   GSAP
 
