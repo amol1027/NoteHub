@@ -42,8 +42,20 @@ NoteHub is a web application designed to facilitate the sharing of academic mate
 
 ## Contributing
 
-(Guidelines for contributing to the project)
+We welcome contributions to NoteHub! Please follow these guidelines:
+
+*   **Code Style:** Adhere to the existing code style.
+*   **Commit Messages:** Write clear and concise commit messages.
+*   **Pull Requests:** Submit pull requests for review.
 
 ## License
 
-(Specify the license)
+MIT
+
+## Standard Guidelines
+
+*   Ensure all code is well-commented and easy to understand.
+*   Follow a consistent coding style throughout the project.
+*   Test all changes thoroughly before submitting them.
+*   Keep the codebase clean and organized.
+*   Write clear and concise documentation for all new features.
