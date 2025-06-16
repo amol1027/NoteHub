@@ -1,54 +1,49 @@
 # NoteHub
 
-NoteHub is a platform for managing and sharing educational documents and resources. It allows users to upload, download, and organize various types of documents, including notes, project reports, and other study materials.
+## Description
+
+NoteHub is a web application designed to facilitate the sharing of academic materials between students, teachers, and educational institutions. It provides a platform for users to register and log in with different roles (student, college, teacher, admin).
 
 ## Features
 
-- User authentication (student, college, admin)
-- Document upload and download
-- Document management and organization
-- User feedback system
-- Analytics dashboard for administrators
+*   User registration and login with different roles (student, college, teacher, admin)
+*   Content display
+*   User interaction
+*   File management
+*   NoteMate AI chat interface
+*   Admin dashboard with key metrics and data tables
+*   Analytics graphs for user registrations, home data entries, and college approvals
 
-## Getting Started
+## Technologies Used
 
-To set up NoteHub locally, follow these steps:
+*   HTML
+*   CSS (Tailwind CSS)
+*   JavaScript
+*   PHP
+*   MySQL (likely, based on `database/justclick.sql`)
+*   Chart.js
+*   GSAP
 
-1.  **Clone the repository:**
-    ```bash
-    git clone <repository_url>
-    cd NoteHub
-    ```
+## Installation
 
-2.  **Set up your web server:**
-    This project is designed to run on a PHP-compatible web server (e.g., Apache with XAMPP).
-    Place the `NoteHub` folder in your web server's document root (e.g., `c:\xampp\htdocs\`).
+1.  Install PHP and MySQL.
+2.  Import the `database/justclick.sql` file into your MySQL database.
+3.  Configure the database connection in the PHP files.
+4.  Install Composer dependencies: `composer install`
+5.  Run the application on a web server.
 
-3.  **Database Setup:**
-    Import the `justclick.sql` file located in the `database/` directory into your MySQL database.
+## Usage
 
-4.  **Configure Database Connection:**
-    Ensure your PHP files (e.g., `admin/admin_login.php`, `student/login.php`) are configured to connect to your MySQL database. You might need to adjust database credentials.
-
-5.  **Access the Application:**
-    Open your web browser and navigate to `http://localhost/NoteHub/` (or your configured URL).
-
-## Project Structure
-
-- `admin/`: Admin panel files
-- `college/`: College-related functionalities
-- `student/`: Student-related functionalities
-- `css/`: Stylesheets
-- `js/`: JavaScript files
-- `database/`: Database schema
-- `documents/`: Uploaded documents storage
-- `img/`: Image assets
-- `vendor/`: Composer dependencies
+*   Register an account.
+*   Log in with your credentials.
+*   Explore the available features.
+*   Use the NoteMate AI chat interface to get help and information.
+*   Admins can access the admin dashboard to view key metrics and data.
 
 ## Contributing
 
-Contributions are welcome! Please feel free to fork the repository and submit pull requests.
+(Guidelines for contributing to the project)
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details (if applicable).
+(Specify the license)
